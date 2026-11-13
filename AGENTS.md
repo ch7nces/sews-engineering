@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Site content lives in src/lib/site-data.ts, sourced only from the company profile PDF; never invent facts.
+- Enquiries are inserted only via the submitEnquiry server function; admins read/update via RLS + has_role.
